@@ -7,137 +7,137 @@
       .front.face
         img(src="@|show-2-1.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-2.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-2.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-6.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-6.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-7.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-7.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-3.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-3.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-4.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-4.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-5.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-5.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-8.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-8.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-9.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-9.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-10.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-10.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-11.card(style="width: 101px; height: 70px;")
       .front.face
         img(src="@|show-2-11.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-12.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-12.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-14.card(style="width: 101px; height: 70px;")
       .front.face
         img(src="@|show-2-14.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-15.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-15.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-16.card(style="width: 140px; height: 97px;")
       .front.face
         img(src="@|show-2-16.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-17.card(style="width: 139px; height: 97px;")
       .front.face
         img(src="@|show-2-17.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-19.card(style="width: 101px; height: 70px;")
       .front.face
         img(src="@|show-2-19.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-18.card(style="width: 101px; height: 70px;")
       .front.face
         img(src="@|show-2-18.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-20.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-20.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-25.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-25.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-26.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-26.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-28.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-28.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-21.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-21.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-22.card(style="width: 101px; height: 71px;")
       .front.face
         img(src="@|show-2-22.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-27.card(style="width: 102px; height: 70px;")
       .front.face
         img(src="@|show-2-27.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-23.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-23.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     .so-2-24.card(style="width: 102px; height: 71px;")
       .front.face
         img(src="@|show-2-24.png|")
       .back.face
-        p 背面文字
+        a(href="#") 背面文字
     //- 视频框
     .card.so-2-13(style="width: 300px; height: 170px;")
       img.main(src="http://www.people.com.cn/NMediaFile/2020/0311/MAIN202003111428365025733743878.jpg")
@@ -174,7 +174,7 @@
   .video-play-box.blinker#playBox
     .video-box
       .video-box-title.clear
-        img.close(src="@|close.png|" onclick="document.getElementById('playBox').style.display = 'none'")
+        img.close(src="@|close.png|" onclick="closePlay()")
       .video-content#videoContent
 </template>
 
@@ -188,6 +188,13 @@
       setTimeout(() => {
         content.getElementsByTagName('video')[0].play()
       }, 0)
+    }
+  }
+  function closePlay() {
+    document.getElementById('playBox').style.display = 'none'
+    var videoPlay = document.querySelector('#playBox #videoContent video')
+    if (videoPlay) {
+      videoPlay.pause()
     }
   }
   module.exports = {
@@ -433,17 +440,17 @@
   left:0;
   width:100%;
   height:100%;
-  transition: all 0.8s ease;
+  transition: all 1s ease;
 }
 
 .card:hover .front{
   transform: rotateY(-180deg);
-  transition: all 0.6s ease;
+  transition: all 0.8s ease;
   z-index:0;
 }
 .card:hover .back{
   transform: rotateY(0deg);
-  transition: all 0.6s ease;
+  transition: all 0.8s ease;
   z-index:1;
 }
 .front{
@@ -457,6 +464,14 @@
   justify-content: center;
   align-items: center;
   color: white;
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  a {
+    color: white;
+    display: block;
+  }
 }
 
 
