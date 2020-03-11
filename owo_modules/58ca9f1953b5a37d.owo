@@ -1,0 +1,73 @@
+<template lang="pug">
+.image-video-box
+  img.show-image(src="http://www.people.com.cn/NMediaFile/2019/1012/MAIN201910120902473975100096200.jpg")
+  video(src="https://cunchu.site/owo/enter.mp4" controls="controls" playsinline)
+  .play-button-box
+    img.play-button(src="https://cunchu.site/ozzx/resource/play-button.png", o-tap="play")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      const showImage = owo.query('.show-image')[0]
+      if (showImage && showImage.src) {
+        showImage.style.display = 'block'
+      }
+    },
+    play: function () {
+      const showImage = owo.query('.show-image')[0]
+      if (showImage) {
+        showImage.style.display = 'none'
+      }
+      owo.query('.play-button-box')[0].style.display = 'none'
+      owo.query('video')[0].play()
+    },
+    pause: function () {
+      owo.query('video')[0].pause()
+      owo.query('.play-button-box')[0].style.display = 'block'
+    },
+    ended: function () {
+      owo.query('.play-button-box')[0].style.display = 'block'
+    }
+  }
+</script>
+
+
+<style lang="less">
+.image-video-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  video, .play-button-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .show-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: none;
+  }
+  .play-button-box {
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .play-button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+}
+</style>

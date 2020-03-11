@@ -1,0 +1,557 @@
+<template lang="pug">
+.home
+  //- 标题1
+  .title.title-1
+  .show-2
+    .so-2-1.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-1.png|")
+      .back.face
+        p 背面文字
+    .so-2-2.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-2.png|")
+      .back.face
+        p 背面文字
+    .so-2-6.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-6.png|")
+      .back.face
+        p 背面文字
+    .so-2-7.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-7.png|")
+      .back.face
+        p 背面文字
+    .so-2-3.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-3.png|")
+      .back.face
+        p 背面文字
+    .so-2-4.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-4.png|")
+      .back.face
+        p 背面文字
+    .so-2-5.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-5.png|")
+      .back.face
+        p 背面文字
+    .so-2-8.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-8.png|")
+      .back.face
+        p 背面文字
+    .so-2-9.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-9.png|")
+      .back.face
+        p 背面文字
+    .so-2-10.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-10.png|")
+      .back.face
+        p 背面文字
+    .so-2-11.card(style="width: 101px; height: 70px;")
+      .front.face
+        img(src="@|show-2-11.png|")
+      .back.face
+        p 背面文字
+    .so-2-12.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-12.png|")
+      .back.face
+        p 背面文字
+    .so-2-14.card(style="width: 101px; height: 70px;")
+      .front.face
+        img(src="@|show-2-14.png|")
+      .back.face
+        p 背面文字
+    .so-2-15.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-15.png|")
+      .back.face
+        p 背面文字
+    .so-2-16.card(style="width: 140px; height: 97px;")
+      .front.face
+        img(src="@|show-2-16.png|")
+      .back.face
+        p 背面文字
+    .so-2-17.card(style="width: 139px; height: 97px;")
+      .front.face
+        img(src="@|show-2-17.png|")
+      .back.face
+        p 背面文字
+    .so-2-19.card(style="width: 101px; height: 70px;")
+      .front.face
+        img(src="@|show-2-19.png|")
+      .back.face
+        p 背面文字
+    .so-2-18.card(style="width: 101px; height: 70px;")
+      .front.face
+        img(src="@|show-2-18.png|")
+      .back.face
+        p 背面文字
+    .so-2-20.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-20.png|")
+      .back.face
+        p 背面文字
+    .so-2-25.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-25.png|")
+      .back.face
+        p 背面文字
+    .so-2-26.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-26.png|")
+      .back.face
+        p 背面文字
+    .so-2-28.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-28.png|")
+      .back.face
+        p 背面文字
+    .so-2-21.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-21.png|")
+      .back.face
+        p 背面文字
+    .so-2-22.card(style="width: 101px; height: 71px;")
+      .front.face
+        img(src="@|show-2-22.png|")
+      .back.face
+        p 背面文字
+    .so-2-27.card(style="width: 102px; height: 70px;")
+      .front.face
+        img(src="@|show-2-27.png|")
+      .back.face
+        p 背面文字
+    .so-2-23.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-23.png|")
+      .back.face
+        p 背面文字
+    .so-2-24.card(style="width: 102px; height: 71px;")
+      .front.face
+        img(src="@|show-2-24.png|")
+      .back.face
+        p 背面文字
+    //- 视频框
+    .card.so-2-13(style="width: 300px; height: 170px;")
+      img.main(src="http://www.people.com.cn/NMediaFile/2020/0311/MAIN202003111428365025733743878.jpg")
+      .blinker(onclick="palyVideo(this)")
+        img(src="@|playbutton2.png|")
+        .li-video-content
+          video(src="https://cunchu.site/owo/enter.mp4" controls="controls" playsinline)
+  .title.title-2
+  ul.video-list.clear
+    li
+      img(src="@|test.png|")
+      .blinker(onclick="palyVideo(this)")
+        img(src="@|playbutton.png|")
+        .li-video-content
+          video(src="https://cunchu.site/show/mp4/shuzhe.mp4" controls="controls" playsinline)
+    li
+      img(src="@|test.png|")
+      .blinker(onclick="palyVideo(this)")
+        img(src="@|playbutton.png|")
+        .li-video-content
+          video(src="https://cunchu.site/show/mp4/shuzhe.mp4" controls="controls" playsinline)
+    li
+      img(src="@|test.png|")
+      .blinker(onclick="palyVideo(this)")
+        img(src="@|playbutton.png|")
+        .li-video-content
+          video(src="https://cunchu.site/show/mp4/shuzhe.mp4" controls="controls" playsinline)
+    li
+      img(src="@|test.png|")
+      .blinker(onclick="palyVideo(this)")
+        img(src="@|playbutton.png|")
+        .li-video-content
+          video(src="https://cunchu.site/show/mp4/shuzhe.mp4" controls="controls" playsinline)
+  .video-play-box.blinker#playBox
+    .video-box
+      .video-box-title.clear
+        img.close(src="@|close.png|" onclick="document.getElementById('playBox').style.display = 'none'")
+      .video-content#videoContent
+</template>
+
+<script>
+  function palyVideo(el) {
+    var box = el.getElementsByClassName('li-video-content')[0]
+    if (box) {
+      var content = document.getElementById('videoContent')
+      content.innerHTML = box.innerHTML
+      document.getElementById('playBox').style.display = 'block'
+      setTimeout(() => {
+        content.getElementsByTagName('video')[0].play()
+      }, 0)
+    }
+  }
+  module.exports = {
+    created: function () {
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  display: block;
+  width: 1000px;
+  height: 970px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.show-2{
+  width: 707px;
+  height: 520px;
+  z-index: 2;
+  position: relative;
+  margin: 0 auto;
+  transform: scale(1.1);
+}
+.so-2-1 {
+  position: absolute;
+  left: 86px;
+  z-index: 1;
+  top: 0px
+}
+.so-2-2 {
+  position: absolute;
+  left: 188px;
+  z-index: 2;
+  top: 0px
+}
+.so-2-6 {
+  position: absolute;
+  left: 454px;
+  z-index: 6;
+  top: 0px
+}
+.so-2-7 {
+  position: absolute;
+  left: 557px;
+  z-index: 7;
+  top: 0px
+}
+.so-2-3 {
+  position: absolute;
+  left: 11px;
+  z-index: 3;
+  top: 69px
+}
+.so-2-4 {
+  position: absolute;
+  left: 113px;
+  z-index: 4;
+  top: 69px
+}
+.so-2-5 {
+  position: absolute;
+  left: 215px;
+  z-index: 5;
+  top: 69px
+}
+.so-2-8 {
+  position: absolute;
+  left: 387px;
+  z-index: 8;
+  top: 69px
+}
+.so-2-9 {
+  position: absolute;
+  left: 489px;
+  z-index: 9;
+  top: 69px
+}
+.so-2-10 {
+  position: absolute;
+  left: 591px;
+  z-index: 10;
+  top: 69px
+}
+.so-2-11 {
+  position: absolute;
+  left: 0px;
+  z-index: 11;
+  top: 139px
+}
+.so-2-12 {
+  position: absolute;
+  left: 102px;
+  z-index: 12;
+  top: 139px
+}
+.so-2-14 {
+  position: absolute;
+  left: 504px;
+  z-index: 14;
+  top: 139px
+}
+.so-2-15 {
+  position: absolute;
+  left: 605px;
+  z-index: 15;
+  top: 139px
+}
+.so-2-16 {
+  position: absolute;
+  left: 63px;
+  z-index: 16;
+  top: 209px
+}
+.so-2-17 {
+  position: absolute;
+  left: 504px;
+  z-index: 17;
+  top: 211px
+}
+.so-2-19 {
+  position: absolute;
+  left: 101px;
+  z-index: 19;
+  top: 310px
+}
+.so-2-18 {
+  position: absolute;
+  left: 204px;
+  z-index: 18;
+  top: 310px
+}
+.so-2-20 {
+  position: absolute;
+  left: 306px;
+  z-index: 20;
+  top: 310px
+}
+.so-2-25 {
+  position: absolute;
+  left: 408px;
+  z-index: 25;
+  top: 310px
+}
+.so-2-26 {
+  position: absolute;
+  left: 510px;
+  z-index: 26;
+  top: 310px
+}
+.so-2-28 {
+  position: absolute;
+  left: 161px;
+  z-index: 28;
+  top: 380px
+}
+.so-2-21 {
+  position: absolute;
+  left: 263px;
+  z-index: 21;
+  top: 379px
+}
+.so-2-22 {
+  position: absolute;
+  left: 365px;
+  z-index: 22;
+  top: 379px
+}
+.so-2-27 {
+  position: absolute;
+  left: 467px;
+  z-index: 27;
+  top: 380px
+}
+.so-2-23 {
+  position: absolute;
+  left: 262px;
+  z-index: 23;
+  top: 449px
+}
+.so-2-24 {
+  position: absolute;
+  left: 364px;
+  z-index: 24;
+  top: 449px
+}
+.so-2-13 {
+  position: absolute;
+  left: 204px;
+  z-index: 13;
+  top: 140px;
+  .main {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .blinker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    img {
+      width: 50px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+  .li-video-content {
+    display: none;
+  }
+}
+
+.card video {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+
+// 卡片
+.card{
+  perspective: 600px;
+  cursor: pointer;
+}
+
+.face{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  transition: all 0.8s ease;
+}
+
+.card:hover .front{
+  transform: rotateY(-180deg);
+  transition: all 0.6s ease;
+  z-index:0;
+}
+.card:hover .back{
+  transform: rotateY(0deg);
+  transition: all 0.6s ease;
+  z-index:1;
+}
+.front{
+  z-index:1;
+}
+
+.back {  
+  transform: rotateY(180deg);
+  background-color: #eaa139;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+.title {
+  height: 80px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.title-1 {
+  background-image: url('@|title-1.png|');
+}
+.title-2 {
+  background-image: url('@|title-2.png|');
+}
+.video-list {
+  width: 1000px;
+  li {
+    float: left;
+    width: 154px;
+    height: 270px;
+    padding: 10px;
+    margin: 0 38px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .blinker {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      img {
+        width: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        user-select: none;
+        pointer-events: none;
+      }
+    }
+    .li-video-content {
+      display: none;
+    }
+  }
+  li:hover {
+    background-color: rgba(199, 196, 188, 0.5);
+  }
+}
+
+.video-play-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9;
+  display: none;
+  .video-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 950px;
+    height: 700px;
+    .video-box-title {
+      height: 50px;
+      position: relative;
+    }
+    .close {
+      height: 30px;
+      margin: 10px;
+      float: right;
+      cursor: pointer;
+    }
+    .video-content {
+      height: 650px;
+    }
+    video {
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}
+</style>
